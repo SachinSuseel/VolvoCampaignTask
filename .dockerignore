@@ -1,0 +1,4 @@
+node_modules
+allure_results
+test/baselineimages
+result_images

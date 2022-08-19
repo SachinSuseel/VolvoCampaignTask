@@ -1,0 +1,146 @@
+{
+  "id": {
+    "sessionId": "3af59f1565b5a83fa036bcd43bb4eefe",
+    "elementId": "ebaffd67-45ed-4f09-ba58-a37f05aa7164",
+    "element-6066-11e4-a52e-4f735466cecf": "ebaffd67-45ed-4f09-ba58-a37f05aa7164",
+    "selector": "//*[@id=\"Video-1\"]//iframe",
+    "parent": {
+      "sessionId": "3af59f1565b5a83fa036bcd43bb4eefe",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "104.0.5112.81",
+        "chrome": {
+          "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+          "userDataDir": "C:\\Users\\sasus4\\AppData\\Local\\Temp\\scoped_dir52740_309018001"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:49400"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "./test/specs/**/*.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure_results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver",
+          "geckodriver",
+          [
+            "image-comparison",
+            {
+              "baselineFolder": "C:\\Mine\\VolvoCampaignTask\\test\\baselineimages\\",
+              "formatImageName": "{tag}-{logName}-{width}x{height}",
+              "screenshotPath": "C:\\Mine\\VolvoCampaignTask\\result_images",
+              "savePerInstance": true,
+              "autoSaveBaseline": true,
+              "blockOutStatusBar": true,
+              "blockOutToolBar": true
+            }
+          ]
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 60000,
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [
+          null
+        ],
+        "beforeSession": [
+          null
+        ],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [
+          null
+        ],
+        "after": [],
+        "onComplete": [
+          null
+        ],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://www.volvocars.com/",
+        "_": [],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}

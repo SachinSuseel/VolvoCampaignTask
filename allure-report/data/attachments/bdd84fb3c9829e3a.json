@@ -1,0 +1,25 @@
+{
+  "dimensions": {
+    "body": {
+      "offsetHeight": 5216,
+      "scrollHeight": 5216
+    },
+    "html": {
+      "clientHeight": 1075,
+      "clientWidth": 1920,
+      "offsetHeight": 5216,
+      "scrollHeight": 5216,
+      "scrollWidth": 1920
+    },
+    "window": {
+      "devicePixelRatio": 1,
+      "innerHeight": 1075,
+      "innerWidth": 1920,
+      "isLandscape": true,
+      "outerHeight": 1176,
+      "outerWidth": 1936,
+      "screenHeight": 1200,
+      "screenWidth": 1920
+    }
+  }
+}

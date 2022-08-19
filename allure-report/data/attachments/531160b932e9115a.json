@@ -1,0 +1,146 @@
+{
+  "id": {
+    "sessionId": "07e91d43-d8c9-49c6-b414-c4d8de8626b0",
+    "elementId": "365b237f-298e-4954-a084-90dce1b434fe",
+    "element-6066-11e4-a52e-4f735466cecf": "365b237f-298e-4954-a084-90dce1b434fe",
+    "selector": "//*[@id=\"Video-1\"]//iframe",
+    "parent": {
+      "sessionId": "07e91d43-d8c9-49c6-b414-c4d8de8626b0",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "firefox",
+        "browserVersion": "102.0.1",
+        "moz:accessibilityChecks": false,
+        "moz:buildID": "20220705093820",
+        "moz:geckodriverVersion": "0.30.0",
+        "moz:headless": false,
+        "moz:processID": 20236,
+        "moz:profile": "C:\\Users\\sasus4\\AppData\\Local\\Temp\\rust_mozprofileAtHtNm",
+        "moz:shutdownTimeout": 60000,
+        "moz:useNonSpecCompliantPointerOrigin": false,
+        "moz:webdriverClick": true,
+        "moz:windowless": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "platformVersion": "10.0",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify"
+      },
+      "config": {
+        "specs": [
+          "./test/specs/**/*.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure_results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver",
+          "geckodriver",
+          [
+            "image-comparison",
+            {
+              "baselineFolder": "C:\\Mine\\VolvoCampaignTask\\test\\baselineimages\\",
+              "formatImageName": "{tag}-{logName}-{width}x{height}",
+              "screenshotPath": "C:\\Mine\\VolvoCampaignTask\\result_images",
+              "savePerInstance": true,
+              "autoSaveBaseline": true,
+              "blockOutStatusBar": true,
+              "blockOutToolBar": true
+            }
+          ]
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 60000,
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [
+          null
+        ],
+        "beforeSession": [
+          null
+        ],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [
+          null
+        ],
+        "after": [],
+        "onComplete": [
+          null
+        ],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://www.volvocars.com/",
+        "_": [],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}

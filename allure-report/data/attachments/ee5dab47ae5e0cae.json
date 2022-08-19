@@ -1,0 +1,9 @@
+{
+  "script": "return (function getElementPositionTopWindow(element) {\n    var rectangles = element.getBoundingClientRect();\n    return {\n        height: Math.round(rectangles.height),\n        width: Math.round(rectangles.width),\n        x: Math.round(rectangles.left),\n        y: Math.round(rectangles.top),\n    };\n}).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "3a32e0d9-08d4-4a71-947f-ad873b903e3b",
+      "ELEMENT": "3a32e0d9-08d4-4a71-947f-ad873b903e3b"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@id=\"player\"]/div[contains(@class,\"html5-video-player\")]"
+}

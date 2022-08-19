@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "./div/a/div[2]/picture"
+}
